@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Mocha Tests</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/mocha/mocha.css" />
+  </head>
+  <body>
+    <div id="mocha"></div>
+
+    <script src="https://unpkg.com/chai/chai.js"></script>
+    <script src="https://unpkg.com/mocha/mocha.js"></script>
+
+    <script class="mocha-init">
+      mocha.setup('bdd');
+	  mocha.checkLeaks();
+	  var assert = chai.assert;
+    </script>
+    <script src="line.js"></script>
+    <script src="print.js"></script>
+	  <script src="square.js"></script>
+	  <script src="square-outline.js"></script>
+	  <script src="rectangle.js"></script>
+    <script src="triangle.js"></script>
+    <script src="flat-top-triangle.js"></script>
+	  <script src="test/line-test.js"></script>
+	  <script src="test/square-test.js"></script>
+	  <script src="test/rectangle-test.js"></script>
+	  <script src="test/triangle-test.js"></script>
+	  <script src="test/flat-top-triangle-test.js"></script>
+	  <script src="test/square-outline-test.js"></script>
+	
+	<script>
+		mocha.run();
+	</script>
+      
+  </body>
+</html>

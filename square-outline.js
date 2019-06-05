@@ -1,0 +1,3 @@
+function createSquareOutline(size) {
+	
+}
