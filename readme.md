@@ -12,9 +12,13 @@ At star is `* ` - `"* "` - an asteric followed by a space.
 
 `createLine(7);` returns `* * * * * * * `
 
-## The print function
+## Returning an array
 
-To make things testable all functions from here on should return an array filled with stars. Use the `print` function print the drawing on the screen.
+To make things testable all functions from here on should return an array filled with stars. 
+
+Use the `print` function to print the drawing on the screen.
+
+The unit tests are giving you a good overview of the required results though.
 
 ## Draw a square
 
@@ -145,3 +149,15 @@ Create a function called `createSquareOutline` that can draw a square of stars f
 *           *  
 * * * * * * * 
 ```
+
+## If your done
+
+Try to create :
+
+* a `createRectangleOutline` function,
+* a `createTriangleOutline` function,
+* a `drawDiamond` function.
+
+Create the tests first.
+
+
